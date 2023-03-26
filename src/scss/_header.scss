@@ -2,11 +2,10 @@
 body {
   height: 100vh;
   display: flex;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .col {
-  border: 1px solid #000000;
   flex: 1;
   background: darkred;
   display: flex;
@@ -28,6 +27,7 @@ body {
 }
 
 .col button {
+  outline: none;
   padding: 10px;
   border-radius: 10px;
   border: none;

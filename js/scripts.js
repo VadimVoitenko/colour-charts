@@ -1,3 +1,4 @@
+// Custom Scripts
 const cols = document.querySelectorAll('.col');
 
 document.addEventListener('keydown', (event) => {
@@ -95,3 +96,4 @@ function getColorsFromHash() {
 }
 
 setRandomColors(true);
+

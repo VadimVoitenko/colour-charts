@@ -100,7 +100,6 @@ body {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  background: darkred;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -162,6 +161,12 @@ body {
 @media (max-width: 767.98px) {
   .container {
     max-width: 740px;
+  }
+}
+
+@media (max-width: 639.98px) {
+  .container {
+    max-width: 606px;
   }
 }
 

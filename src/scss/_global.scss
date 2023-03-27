@@ -16,6 +16,9 @@
     @media (max-width: $breakpoint768) {
         max-width: 740px;
     }
+    @media (max-width: $breakpoint640) {
+        max-width: 606px;
+    }
 
     @media (max-width: $breakpoint480) {
         max-width: none;
